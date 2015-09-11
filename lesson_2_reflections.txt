@@ -2,4 +2,13 @@ What happens when you initialize a repository? Why do you need to do it?
 By initializing a repository, the '.git' repository will be created where the history will be stored and then our repository is prepared to use Git
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is an intermediate area where we can add the files to be committed and it is helpful to make commits which are logically related xxxxxxx
-  
+How can you use the staging area to make sure you have one commit per logical change?
+Using the staging area, We can make sure to have one commit per logical change beacause we are able to commit every change in the file we pass to the staging area and the then we could pass the file again to the staging area after making other changes
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+In the case of trying some new features and we are not sure about what will be the results or when we'll edit a new version of our code with a different language,it means working in a different context. Branches help to create other versions where we can work in parallel with the main official version and make different commits to each version.
+How do the diagrams help you visualize the branch structure?
+By listing the commits from the earliest to the most recent ones indicating the commits related to each branch.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches together is one branch (the master branch). The diagram representation make it easier to analyse the chronologically classed commit.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Doing merges manually is a hard and complicated task since we have to find out if there are conflicts and then fix it. Git's automatic merging is better as Git can know which changes to keep and where appears the conflict.
